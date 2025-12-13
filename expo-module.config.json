@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["ExpoSecureKeyStoreModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.securekeystore.ExpoSecureKeyStoreModule"]
+  }
+}

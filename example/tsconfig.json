@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-secure-key-store": ["../src/index"],
+      "expo-secure-key-store/*": ["../src/*"]
+    }
+  }
+}
