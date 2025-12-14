@@ -1,12 +1,17 @@
-import { NativeModule, requireNativeModule } from 'expo';
-
-import { ExpoSecureKeyStoreModuleEvents } from './ExpoSecureKeyStore.types';
+import { NativeModule, requireNativeModule } from "expo";
+import { ExpoSecureKeyStoreModuleEvents } from "./ExpoSecureKeyStore.types";
 
 declare class ExpoSecureKeyStoreModule extends NativeModule<ExpoSecureKeyStoreModuleEvents> {
-  PI: number;
-  hello(): string;
-  setValueAsync(value: string): Promise<void>;
+  set: (
+    key: string,
+    value: string,
+    options?: Record<string, any>
+  ) => Promise<string>;
+  get: (key: string) => Promise<string>;
+  delete: (key: string) => Promise<void>;
 }
 
 // This call loads the native module object from the JSI.
-export default requireNativeModule<ExpoSecureKeyStoreModule>('ExpoSecureKeyStore');
+export default requireNativeModule<ExpoSecureKeyStoreModule>(
+  "ExpoSecureKeyStore"
+);
