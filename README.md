@@ -1,5 +1,7 @@
 # Expo Secure Key Store
 
+[![npm](https://img.shields.io/npm/d18m/expo-secure-key-store.svg)](https://www.npmjs.com/package/expo-secure-key-store?activeTab=readme)
+
 This package provides an Expo-compatible implementation of [react-native-secure-key-store](https://github.com/pradeep1991singh/react-native-secure-key-store), designed to ensure backwards compatibility while leveraging modern React Native APIs.
 
 The original library was written in Java and Objective-C, and does not support the Expo managed workflow and lacks autolinking capabilities. To address these limitations, this package has been rewritten with Swift and Kotlin, using updated APIs and ensuring full Expo compatibility.
