@@ -1,6 +1,6 @@
 {
   "name": "expo-secure-key-store",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An Expo-compatible version of react-native-secure-key-store, created for backwards compatibility",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -16,16 +16,20 @@
     "open:android": "open -a \"Android Studio\" example/android"
   },
   "keywords": [
-    "react-native",
-    "expo",
+    "react-native-secure-key-store",
+    "ReactNativeSecureKeyStore",
+    "SecureKeySTore",
     "expo-secure-key-store",
-    "ExpoSecureKeyStore"
+    "ExpoSecureKeyStore",
+    "expo",
+    "expo-module",
+    "react-native"
   ],
   "repository": "https://github.com/Arciiix/expo-secure-key-store",
   "bugs": {
     "url": "https://github.com/Arciiix/expo-secure-key-store/issues"
   },
-  "author": "Arciiix <> (https://github.com/Arciiix)",
+  "author": "Arciiix (https://github.com/Arciiix)",
   "license": "MIT",
   "homepage": "https://github.com/Arciiix/expo-secure-key-store#readme",
   "dependencies": {},
